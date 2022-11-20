@@ -101,7 +101,7 @@ function generateResume(){
 }
 
 // 3 funções são chamadas quando o botão é clicado: 
-resumeButton.addEventListener('click', () => {
+resume-Button.addEventListener('click', () => {
 
     // 01. A class .scale-cv é adicionada ao corpo, onde é reduzida o tamanho dos elementos
     scaleCv()

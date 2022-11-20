@@ -63,13 +63,14 @@ if (selectedTheme) {
   themeButton.classList[selectedIcon === 'bx-moon' ? 'add' : 'remove'](iconTheme)
 }
 
+/*
 themeButton.addEventListener('click', () => {
     document.body.classList.toggle(darkTheme)
     themeButton.classList.toggle(iconTheme)
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
-
+*/
 /* Tamanho e impressão pdf */ 
 function scaleCv(){
     document.body.classList.add('scale-cv')

@@ -82,8 +82,8 @@ function removeScale(){
 
 /* Gerar o pdf */ 
 // PDF área
-let areaCv = document.getElementById('area-cv')
-let resumeButton = document.getElementById('resume-button')
+let areaCv = document.getElementById('#area-cv')
+let resumeButton = document.getElementById('#resume-button')
 
 // Opção de impressão
 let opt = {

@@ -83,8 +83,8 @@ function removeScale(){
 
 /* Gerar o pdf */ 
 // PDF área
-let areaCv = document.getElementById('#area-cv')
-let resumeButton = document.getElementById('#resume-button')
+let areaCv = document.getElementById('area-cv')
+let resumeButton = document.getElementById('resume-button')
 
 // Opção de impressão
 let opt = {
@@ -101,7 +101,7 @@ function generateResume(){
 }
 
 // 3 funções são chamadas quando o botão é clicado: 
-resume-Button.addEventListener('click', () => {
+resumeButton.addEventListener('click', () => {
 
     // 01. A class .scale-cv é adicionada ao corpo, onde é reduzida o tamanho dos elementos
     scaleCv()
